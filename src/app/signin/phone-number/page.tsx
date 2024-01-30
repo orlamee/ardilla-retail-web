@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { SetStateAction, useState } from "react";
 import { Icon } from '@iconify-icon/react';
 
-export default function Home() {
+export default function PhoneNumber() {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const togglePasswordVisibility = () => {
@@ -28,14 +28,14 @@ export default function Home() {
               <form>
                 <div className="mb-4">
                   <Link
-                    href="/signin/phone-number"
+                    href="/"
                     className="text-[#240552] float-right font-[500] text-[12px] leading-[20px]"
                   >
-                    Log In with Phone Number
+                    Log In with KodHex
                   </Link>
                   <input
-                    type="text"
-                    placeholder="Enter KodHex"
+                    type="tel"
+                    placeholder="Enter Phone Number"
                     className="bg-[#fff] border outline-none border-[#E5E7EB] text-[#9CA3AF] text-[13px] rounded-[6px] focus:border-[#240552] block w-full p-4 dark:placeholder-gray-400"
                   />
                 </div>
