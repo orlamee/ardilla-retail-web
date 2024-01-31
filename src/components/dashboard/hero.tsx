@@ -22,7 +22,7 @@ function Hero() {
         <h2 className="font-[700] text-white text-[22px] md:text-[35px] lg:text-[50px] mb-5">
           {hideBalance ? "*******" : " N 10,000,000.00"}
         </h2>
-        <Link href={"/dashboard/account"}>
+        <Link href={"/dashboard"}>
           <div className="text-white text-[12px] font-[500] flex">
             View Account Details{" "}
             <span className="ml-3">
