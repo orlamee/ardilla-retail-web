@@ -93,3 +93,14 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+.bg-aside {
+  background-image: url("../assets/pattern.svg");
+}
+
+.dashboard-hero {
+  background-image: url("../assets/hero.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+}

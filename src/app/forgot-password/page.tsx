@@ -55,7 +55,7 @@ export default function ForgotPassword() {
 
   return (
     <section className="min-h-screen flex items-stretch ">
-      <div className="lg:w-1/2 w-full flex items-center justify-start md:px-16 px-0 z-0 bg-white">
+      <div className="lg:w-1/2 w-full flex items-center justify-start md:px-16 px-0 z-0 bg-half bg-no-repeat bg-cover">
         {activeStep === 0 && (
           <div className="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
             <div className="my-10">

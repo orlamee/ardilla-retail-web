@@ -1,0 +1,23 @@
+<svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="33.2412" cy="33.585" r="32.6162" fill="url(#paint0_linear_2768_57681)" stroke="url(#paint1_linear_2768_57681)"/>
+<circle cx="33.2422" cy="33.5859" r="19.6" fill="white" stroke="#EDEDED" stroke-width="0.8"/>
+<path d="M33.2555 26.8516L38.8269 29.0802C39.0436 29.1668 39.2169 29.4268 39.2169 29.6559V31.7111C39.2169 32.0516 38.9383 32.3302 38.5978 32.3302H27.455C27.1145 32.3302 26.8359 32.0516 26.8359 31.7111V29.6559C26.8359 29.4268 27.0093 29.1668 27.2259 29.0802L32.7974 26.8516C32.9212 26.8021 33.1316 26.8021 33.2555 26.8516Z" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.2169 39.1403H26.8359V37.2831C26.8359 36.9426 27.1145 36.6641 27.455 36.6641H38.5978C38.9383 36.6641 39.2169 36.9426 39.2169 37.2831V39.1403Z" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.0703 36.6654V32.332" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.5469 36.6654V32.332" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.0234 36.6654V32.332" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35.4922 36.6654V32.332" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.9766 36.6654V32.332" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.2109 39.1406H39.83" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.0223 30.7829C33.5352 30.7829 33.9509 30.3672 33.9509 29.8544C33.9509 29.3415 33.5352 28.9258 33.0223 28.9258C32.5095 28.9258 32.0938 29.3415 32.0938 29.8544C32.0938 30.3672 32.5095 30.7829 33.0223 30.7829Z" stroke="#240552" stroke-width="0.8125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_2768_57681" x1="33.2422" y1="-15.5823" x2="33.2422" y2="56.5622" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EFEFEF"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2768_57681" x1="33.2412" y1="0.46875" x2="33.2422" y2="54.7203" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DDDDDD"/>
+<stop offset="1" stop-color="#DDDDDD" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
