@@ -99,8 +99,9 @@ input[type="number"] {
 }
 
 .dashboard-hero {
-  background-image: url("../assets/hero.png");
+  background-image: url("../assets/hero.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   background-position: center;
 }
