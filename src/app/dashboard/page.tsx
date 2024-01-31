@@ -13,6 +13,7 @@ import Hero from "@/components/dashboard/hero";
 import Quickaction from "./quickaction";
 import TodoGroup from "@/components/dashboard/todoGroup";
 import Buildwealth from "@/components/dashboard/buildwealth";
+import Link from "next/link";
 function Dashboard() {
   return (
     <section>
@@ -33,7 +34,9 @@ function Dashboard() {
                 <h6 className="text-[22px] font-[400] text-black leading-[34px]"><span className="font-[500]">Interest Calculator:</span> Explore our interest rates on your savings and find out how much interest you will  earn when you save on any of our saving plans.</h6>
               </div>
             </div>
-            <Image src={calc} alt="calc" className="ml-auto mt-[-50px] mr-[40px]" />
+            <Link href={"/dashboard/interest-calculator"}>
+              <Image src={calc} alt="calc" className="ml-auto mt-[-50px] mr-[40px]" />
+            </Link>
           </div>
           <Buildwealth/>
           <div className="flex flex-col md:flex-row md:justify-between flex-wrap gap-[25px] md:gap-[40px]">
