@@ -28,7 +28,7 @@ function NavBar({ children }: Props) {
               <Image src={user} width={40} height={40} alt="user" />
             </button>
             {isDropdownOpen && (
-              <div className="absolute top-full right-0 mt-3 bg-white border border-[#E5E7EB] rounded-lg shadow-lg w-[400px]">
+              <div className="absolute top-full right-0 mt-3 bg-white border border-[#E5E7EB] rounded-lg shadow-lg w-[320px]">
                 <div className="px-5 py-7">
                   <div className="ms-4 mb-4">
                     <h3 className="text-[12px] text-[#000] font-[500] leading-[20px]">

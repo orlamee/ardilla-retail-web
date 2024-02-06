@@ -6,6 +6,7 @@ import add from "../../assets/add-circle.svg";
 import closed from "../../assets/closed.svg";
 import refer from "../../assets/fluent-emoji-high-contrast_money-bag.svg";
 
+
 function Quickaction() {
   return (
     <div className="mb-[50px]">
@@ -50,7 +51,18 @@ function Quickaction() {
           </div>
         </div>
         <div className="bg-white flex-1 rounded-[8px] border-[1px] border-borderprimary shadow-[0px_4px_30px_0px_#9494941A] flex p-8 justify-between">
-          
+          <div className="flex items-center">
+            <div className="">
+              <div className="flex items-center gap-x-6 mb-4">
+                <h2 className="font-[700] text-[14px] leading-[18px] text-black">Inflow</h2>
+                <span className="bg-[#F6F1FE] py-0.5 px-3 rounded-[30px] text-black text-[10px]">0%</span>
+              </div>
+              <h4 className="font-[500] text-[12px] leading-[20px] text-[#9CA3AF]">You have no recent inflow</h4>
+            </div>
+            <div>
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>
