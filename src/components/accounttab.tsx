@@ -20,7 +20,7 @@ function Accounttab({ title, isActive, Icon, onClick }: props) {
       <div className="ml-3 flex justify-between items-center flex-1 text-[12px] font-[500] text-[#4B5563]">
         <p>{title}</p>
         <ChevronRight
-          className={`text-primary mr-1 text-[#240552] ${
+          className={`mr-1 text-[#240552] ${
             isActive ? "opacity-100" : "opacity-0"
           }`}
         />

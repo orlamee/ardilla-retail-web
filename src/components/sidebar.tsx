@@ -27,6 +27,7 @@ function Sidebar() {
             link="/dashboard"
             icon={<Image src={home} width={24} height={24} alt={"home"} />}
             isActive={pathname === "/dashboard" ||
+            pathname === "/dashboard/notifications" ||
             pathname === "/dashboard/interest-calculator" 
           }
           />

@@ -194,10 +194,7 @@ export default function Statements() {
                                 </h2>
                               </div>
                               <div className="flex-none">
-                                <Icon
-                                  icon="teenyicons:right-outline"
-                                  className="text-[#240552]"
-                                />
+                                <button className="bg-[#FFFBF0] border border-black py-2 px-3 rounded-[2px] text-[10px]">Download</button>
                               </div>
                             </div>
                           </div>
