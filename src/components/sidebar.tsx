@@ -9,6 +9,7 @@ import { usePathname } from "next/navigation";
 import home from "../assets/home.svg";
 import savings from "../assets/savings.svg";
 import about from "../assets/message-question.svg";
+import loans from "../assets/loans.svg";
 import rewards from "../assets/medal-star.svg";
 import payment from "../assets/send-sqaure-2.svg";
 
@@ -106,6 +107,13 @@ function Sidebar() {
               />
             }
             isActive={pathname === "/dashboard/card-and-bank"}
+          />
+          <Sidebaritem
+            image={loans}
+            title="Loans"
+            link="/dashboard/loans"
+            icon={<Image src={loans} width={24} height={24} alt={"savings"} />}
+            isActive={pathname === "/dashboard/loans"}
           />
           <Sidebaritem
             image={about}
