@@ -158,7 +158,7 @@ function Nots() {
                           <button className="flex items-center text-[#240552] px-5 py-1 border border-[#240552] rounded-[3px] text-[12px] leading-[17px] font-[500] shadow-[3px_3px_black]">
                             <span className="me-1">View</span>
                             <span>
-                              <Icon icon="mingcute:right-line" />
+                              <Icon icon="mingcute:right-line" className="mt-[6px]" />
                             </span>
                           </button>
                         </div>
@@ -188,7 +188,7 @@ function Nots() {
                           <button className="flex items-center text-[#240552] px-5 py-1 border border-[#240552] rounded-[3px] text-[12px] leading-[17px] font-[500] shadow-[3px_3px_black]">
                             <span className="me-1">View</span>
                             <span>
-                              <Icon icon="mingcute:right-line" />
+                              <Icon icon="mingcute:right-line" className="mt-[6px]" />
                             </span>
                           </button>
                         </div>
@@ -218,7 +218,7 @@ function Nots() {
                           <button className="flex items-center text-[#240552] px-5 py-1 border border-[#240552] rounded-[3px] text-[12px] leading-[17px] font-[500] shadow-[3px_3px_black]">
                             <span className="me-1">View</span>
                             <span>
-                              <Icon icon="mingcute:right-line" />
+                              <Icon icon="mingcute:right-line" className="mt-[6px]" />
                             </span>
                           </button>
                         </div>
@@ -252,7 +252,7 @@ function Nots() {
                           <button className="flex items-center text-[#240552] px-5 py-1 border border-[#240552] rounded-[3px] text-[12px] leading-[17px] font-[500] shadow-[3px_3px_black]">
                             <span className="me-1">View</span>
                             <span>
-                              <Icon icon="mingcute:right-line" />
+                              <Icon icon="mingcute:right-line" className="mt-[6px]" />
                             </span>
                           </button>
                         </div>
@@ -282,7 +282,7 @@ function Nots() {
                           <button className="flex items-center text-[#240552] px-5 py-1 border border-[#240552] rounded-[3px] text-[12px] leading-[17px] font-[500] shadow-[3px_3px_black]">
                             <span className="me-1">View</span>
                             <span>
-                              <Icon icon="mingcute:right-line" />
+                              <Icon icon="mingcute:right-line" className="mt-[6px]" />
                             </span>
                           </button>
                         </div>
@@ -290,7 +290,36 @@ function Nots() {
                     </div>
                   </div>
                 </div>
-                
+                <div>
+                  <Image src={notes} alt="back" className="w-full" />
+                  <div className="bg-white border box-shadow shadow-[0_4px_30px_0_#9494941A] relative mt-[-53px] border-[#EEEFF2] rounded-[10px] p-8">
+                    <div className="flex flex-row">
+                      <div className="me-3">
+                        <Image src={circled} alt="circled" />
+                      </div>
+                      <div>
+                        <h3 className="text-[#240552] text-[12px] font-[500] leading-[24px]">
+                          Save More and Earn More
+                        </h3>
+                        <p className="text-[#9CA3AF] text-[11px] font-[400] leading-[16px]">
+                          Saving takes you one step closer to financial freedom.
+                          Save more on Ardilla now.
+                        </p>
+                        <div className="flex items-center justify-between mt-6">
+                          <p className="text-[#9CA3AF] text-[10px] font-[400] leading-[16px]">
+                            10:23am | Today
+                          </p>
+                          <button className="flex items-center text-[#240552] px-5 py-1 border border-[#240552] rounded-[3px] text-[12px] leading-[17px] font-[500] shadow-[3px_3px_black]">
+                            <span className="me-1">View</span>
+                            <span>
+                              <Icon icon="mingcute:right-line" className="mt-[6px]" />
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </TabsContent>
           </Tabs>
