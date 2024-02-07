@@ -115,13 +115,13 @@ function Sidebar() {
             icon={<Image src={loans} width={24} height={24} alt={"savings"} />}
             isActive={pathname === "/dashboard/loans"}
           />
-          <Sidebaritem
+          {/* <Sidebaritem
             image={about}
             title="About"
             link="/dashboard/about-us"
             icon={<Image src={about} width={24} height={24} alt={"savings"} />}
             isActive={pathname === "/dashboard/about-us"}
-          />
+          /> */}
         </div>
       </ScrollArea>
     </aside>

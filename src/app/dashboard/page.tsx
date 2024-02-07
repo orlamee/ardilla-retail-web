@@ -8,10 +8,13 @@ import savefund from "../../assets/securefund.svg";
 import plane from "../../assets/plane.svg";
 import league from "../../assets/league.svg";
 import withdraw from "../../assets/withdraw.svg";
+import slidertwo from "../../assets/slider-two.svg";
 import deposit from "../../assets/deposit.svg";
 import Hero from "@/components/dashboard/hero";
 import Quickaction from "./quickaction";
 import TodoGroup from "@/components/dashboard/todoGroup";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, A11y, Autoplay } from "swiper/modules";
 import Buildwealth from "@/components/dashboard/buildwealth";
 import Link from "next/link";
 function Dashboard() {
@@ -63,7 +66,31 @@ function Dashboard() {
                 </div>
               </div>
               <Image src={savefund} alt="savefund" className="w-full" />
-              <Image src={league} alt="league" className="w-full" />
+              <Swiper
+                modules={[Pagination, A11y, Autoplay]}
+                spaceBetween={50}
+                slidesPerView={"auto"}
+                className="flex w-full border-0 outline-none overflow-hidden"
+                pagination={{ clickable: true }}
+                scrollbar={{ draggable: true }}
+                autoplay
+              >
+                <SwiperSlide>
+                  <Image
+                    src={league}
+                    alt="save more"
+                    height={200}
+                    className="w-full object-contain"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Image
+                    src={slidertwo}
+                    alt="earn passively"
+                    className="w-full object-cover object-center"
+                  />
+                </SwiperSlide>
+              </Swiper>
             </div>
             <div className="flex-1 p-8 rounded-[12px] border-[1px] bg-white border-borderprimary shadow-[0px_4px_30px_0px_#9494941A]">
               <div className="flex justify-between mb-6">

@@ -31,7 +31,7 @@ function NavBar({ children }: Props) {
               <div className="absolute top-full right-0 mt-3 bg-white border border-[#E5E7EB] rounded-lg shadow-lg w-[320px]">
                 <div className="px-5 py-7">
                   <div className="ms-4 mb-4">
-                    <h3 className="text-[12px] text-[#000] font-[500] leading-[20px]">
+                    <h3 className="text-[14px] text-[#000] font-[600] leading-[20px]">
                       Elon Musk
                     </h3>
                     <span className="text-[#9CA3AF] text-[10px] font-[500] leading-[20px]">
@@ -47,7 +47,7 @@ function NavBar({ children }: Props) {
                             icon="iconoir:profile-circle"
                             className="text-[#9CA3AF] text-[20px] me-3"
                           />
-                          <span className="text-[13px] text-[#051505] font-[500] leading-[16px]">
+                          <span className="text-[13px] text-[#051505] font-[600] leading-[16px]">
                             Account
                           </span>
                         </div>
@@ -59,7 +59,7 @@ function NavBar({ children }: Props) {
                           icon="icons8:support"
                           className="text-[#9CA3AF] text-[20px] me-3"
                         />
-                        <span className="text-[13px] text-[#051505] font-[500] leading-[16px]">
+                        <span className="text-[13px] text-[#051505] font-[600] leading-[16px]">
                           Support
                         </span>
                       </div>
@@ -70,7 +70,7 @@ function NavBar({ children }: Props) {
                           icon="carbon:login"
                           className="text-[#9CA3AF] text-[20px] me-3"
                         />
-                        <span className="text-[13px] text-[#051505] font-[500] leading-[16px]">
+                        <span className="text-[13px] text-[#051505] font-[600] leading-[16px]">
                           Logout
                         </span>
                       </div>
