@@ -4,6 +4,9 @@ import { Icon } from '@iconify-icon/react';
 import { useState } from "react";
 import Image from "next/image";
 import vector from "../../../assets/green.svg";
+import one from "../../../assets/one.svg";
+import two from "../../../assets/two.svg";
+import three from "../../../assets/three.svg";
 import orange from "../../../assets/orange.svg";
 import divider from "../../../assets/divider.svg";
 import Link from "next/link";
@@ -318,6 +321,23 @@ export default function Savings() {
               )}
             </div>
           </div>
+        </div>
+        <div className="flex flex-row gap-x-20 mb-9">
+          <Image
+            src={one}
+            alt="divide"
+            className="w-full"
+          />
+          <Image
+            src={two}
+            alt="two"
+            className="w-full"
+          />
+          <Image
+            src={three}
+            alt="three"
+            className="w-full"
+          />
         </div>
         <div className="bg-white border border-[#EEEFF2] px-6 py-4 rounded-tl-[16px] rounded-tr-[16px] rounded-b-none mb-4">
           <h6 className="text-[#240552] font-[500] text-[14px] leading-[19px]">
