@@ -1,13 +1,13 @@
 "use client";
 import NavBar from "@/components/navbar";
 import React, { useEffect, useRef, useState } from "react";
-import navback from "../../assets/static/nav back.svg";
+import navback from "../../assets/nav back.svg";
 import Image from "next/image";
 import Link from "next/link";
-import Accounttab from "@/components/Accountcomponents/accounttab";
+import Accounttab from "@/components/accounttab";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import cal from "../../assets/static/cal.svg";
-import yourdib from "../../assets/static/your dib.svg";
+import cal from "../../assets/cal.svg";
+import yourdib from "../../assets/your dib.svg";
 import PanelHeader from "@/components/Accountcomponents/panelHeader";
 import { Switch } from "@/components/ui/switch";
 import {

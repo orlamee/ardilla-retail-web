@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 import NavBar from "../navbar";
-import lock from "../../assets/static/lock-g.svg";
+import lock from "../../assets/lock-g.svg";
 import {
 	Ban,
 	CheckCircle,

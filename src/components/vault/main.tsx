@@ -1,17 +1,17 @@
 "use client";
 import NavBar from "@/components/navbar";
-import { Icon } from "@iconify/react/dist/iconify.js";
+import { Icon } from '@iconify-icon/react';
 import { useState } from "react";
 import Image from "next/image";
-import vector from "../../assets/static/green.svg";
-import orange from "../../assets/static/orange.svg";
-import divider from "../../assets/static/divider.svg";
+import vector from "../../assets/green.svg";
+import orange from "../../assets/orange.svg";
+import divider from "../../assets/divider.svg";
 import Link from "next/link";
 import Modal from "@/components/modal";
 import { motion, AnimatePresence } from "framer-motion";
 import { XCircleIcon } from "lucide-react";
-import banner from "../../assets/static/save-banner.svg";
-import withdraw from "../../assets/static/withdraw.png";
+import banner from "../../assets/save-banner.svg";
+import withdraw from "../../assets/withdraw.png";
 
 export default function Main() {
 	const [isAmountVisible, setIsAmountVisible] = useState(false);
