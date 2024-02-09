@@ -38,7 +38,11 @@ function Sidebar() {
             icon={
               <Image src={savings} width={24} height={24} alt={"savings"} />
             }
-            isActive={pathname === "/dashboard/savings"}
+            isActive={
+              pathname === "/dashboard/savings" ||
+              pathname === "/dashboard/savings/settings" ||
+              pathname === "/dashboard/vault/new"
+          }
           />
 
           <Sidebaritem
